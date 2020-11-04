@@ -1,0 +1,183 @@
+body{
+    height: 100vh
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main{
+  margin-left: 14vh;
+
+}
+section{
+  background-color: yellow;
+
+}
+
+.image-text{
+  z-index: 1;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+.sidebar{
+  background-color: #B4D6E3;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+
+}
+
+svg{
+  margin-left: 25%;
+  margin-top: 10%
+
+}
+.nav-content{
+  display: inline;
+
+}
+
+li{
+  list-style: none;
+}
+
+.social-media{
+  margin-top: 490%;
+}
+
+i{
+  color: #71ABC3;
+
+}
+
+
+.navbar{
+  width: 100%;
+  color: #C4DDE9;
+
+}
+
+#nav1, #nav2, #nav3, #nav4 {
+  margin-left: 5%;
+}
+#nav5{
+
+}
+
+.page-content{
+  border: 1px solid black;
+  height: 85vh;
+
+}
+
+.main-content{
+  display: inline-block;
+
+
+}
+
+
+.column {
+  float: left;
+  height: 90vh;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+
+}
+
+p.text{
+  line-height: 1.4em;
+  color: white;
+
+}
+#column2{
+  padding: 3%;
+}
+/*  #ED48B7  */
+.pink{
+  height: 25px;
+  width: 25px;
+  background-color: #C454A4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.yellow{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.blue{
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.white{
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+p{
+  font-weight: 100;
+}
+
+input{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1%;
+  margin-left: 5%;
+}
+
+button{
+  padding: 2%;
+  background-color: #C454A4;
+  border: 1px solid #C454A4;
+  cursor: pointer;
+  color: white;
+}
+button:hover{
+  background-color: black;
+  border: 1px solid black;
+  transition: .10s linear;
+  transition-delay: .10s;
+}
+
+.dd{
+  background-color: green;
+}
+
+.bx-star{
+  color: yellow;
+}
+
+#star{
+  display: inline;
+}
